@@ -321,7 +321,7 @@ Contributions welcome! Ideas for new loaders:
 - [ ] Audio transcription → context
 
 ```bash
-git clone https://github.com/yourusername/deepseek-1M
+git clone https://github.com/bevinkatti/deepseek-1M
 cd deepseek-1M
 pip install -e ".[dev]"
 pytest tests/ -v
