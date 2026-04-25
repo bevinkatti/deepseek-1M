@@ -7,7 +7,7 @@ No chunking. No embeddings. No RAG. Just DeepSeek-V4 holding everything in memor
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![DeepSeek V4](https://img.shields.io/badge/DeepSeek-V4%20Ready-green.svg)](https://platform.deepseek.com)
-[![Stars](https://img.shields.io/github/stars/yourusername/deepseek-1M?style=social)](https://github.com/bevinkatti/deepseek-1M)
+[![Stars](https://img.shields.io/github/stars/bevinkatti/deepseek-1M?style=social)](https://github.com/bevinkatti/deepseek-1M)
 
 ---
 
