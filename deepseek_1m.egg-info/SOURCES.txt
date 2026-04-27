@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+deepseek_1m/__init__.py
+deepseek_1m/__main__.py
+deepseek_1m/client.py
+deepseek_1m/loader.py
+deepseek_1m/session.py
+deepseek_1m.egg-info/PKG-INFO
+deepseek_1m.egg-info/SOURCES.txt
+deepseek_1m.egg-info/dependency_links.txt
+deepseek_1m.egg-info/entry_points.txt
+deepseek_1m.egg-info/requires.txt
+deepseek_1m.egg-info/top_level.txt
+tests/test_core.py

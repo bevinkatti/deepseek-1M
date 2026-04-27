@@ -1,0 +1,2 @@
+[console_scripts]
+deepseek-1m = deepseek_1m.__main__:main

@@ -1,3 +1,43 @@
+Metadata-Version: 2.4
+Name: deepseek-1m
+Version: 1.0.0
+Summary: Unlock DeepSeek-V4's 1M context window — chat with entire codebases, books, and email archives
+Author: deepseek-1M contributors
+License: MIT
+Project-URL: Homepage, https://github.com/bevinkatti/deepseek-1M
+Project-URL: Documentation, https://github.com/bevinkatti/deepseek-1M#readme
+Project-URL: Repository, https://github.com/bevinkatti/deepseek-1M
+Project-URL: Bug Tracker, https://github.com/bevinkatti/deepseek-1M/issues
+Keywords: deepseek,llm,ai,context-window,1m-tokens,codebase-chat,document-analysis,rag-free
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: openai>=1.30.0
+Requires-Dist: rich>=13.7.0
+Requires-Dist: tiktoken>=0.7.0
+Provides-Extra: pdf
+Requires-Dist: pypdf>=4.0.0; extra == "pdf"
+Provides-Extra: web
+Requires-Dist: beautifulsoup4>=4.12.0; extra == "web"
+Provides-Extra: demo
+Requires-Dist: streamlit>=1.35.0; extra == "demo"
+Provides-Extra: all
+Requires-Dist: pypdf>=4.0.0; extra == "all"
+Requires-Dist: beautifulsoup4>=4.12.0; extra == "all"
+Requires-Dist: streamlit>=1.35.0; extra == "all"
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.23.0; extra == "dev"
+Requires-Dist: ruff>=0.4.0; extra == "dev"
+Requires-Dist: mypy>=1.10.0; extra == "dev"
+
 # 🚀 deepseek-1M
 
 **Chat with your entire codebase, documents, or email archive — using DeepSeek-V4's 1,000,000-token context window.**
@@ -7,8 +47,6 @@ No chunking. No embeddings. No RAG. Just DeepSeek-V4 holding everything in memor
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![DeepSeek V4](https://img.shields.io/badge/DeepSeek-V4%20Ready-green.svg)](https://platform.deepseek.com)
-[![PyPI](https://img.shields.io/pypi/v/deepseek-1m.svg)](https://pypi.org/project/deepseek-1m/)
-[![Downloads](https://img.shields.io/pypi/dm/deepseek-1m.svg)](https://pypi.org/project/deepseek-1m/) 
 [![Stars](https://img.shields.io/github/stars/bevinkatti/deepseek-1M?style=social)](https://github.com/bevinkatti/deepseek-1M)
 
 ---
@@ -323,7 +361,7 @@ Contributions welcome! Ideas for new loaders:
 - [ ] Audio transcription → context
 
 ```bash
-git clone https://github.com/bevinkatti/deepseek-1M
+git clone https://github.com/yourusername/deepseek-1M
 cd deepseek-1M
 pip install -e ".[dev]"
 pytest tests/ -v
