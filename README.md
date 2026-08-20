@@ -338,4 +338,4 @@ MIT — use it, fork it, ship it.
 ---
 
 *Built in response to DeepSeek-V4's April 2026 launch with 1M token context.*  
-*If this saved you time, give it a ⭐ — it helps others find it.*
+*If this saved you time, give it a ⭐ or a Fork*
